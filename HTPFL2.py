@@ -221,7 +221,7 @@ def bomber():
         else:
             print(colored("Start...", "green"))
         print("")
-        os.system("pkg install wget python unzip")
+        os.system("pkg install wget python unzip -y")
         os.system("wget https://FSystem88.ru/spymer/b0mb3r.zip")
         os.system("unzip b0mb3r.zip")
         os.system("pip3 install ./b0mb3r-master")
