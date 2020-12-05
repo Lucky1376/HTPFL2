@@ -110,17 +110,17 @@ def bomber():
     a = open("bomb.txt", "r")
     ok2 = a.read()
     ok2 = str(ok2)
-    if ok2 == "✔️":
-        ok2 == colored("✔️", "green")
+    if ok2 == "yes":
+        ok3 == colored("✔️", "green")
     else:
-        ok2 = colored("❌", "red")
+        ok3 = colored("❌", "red")
     if lan == "ru":
-        print(colored("[4]", "red"), colored("Установка b0mb3r", "red")+ok2)
+        print(colored("[4]", "red"), colored("Установка b0mb3r", "red")+ok3)
         print("")
         print("")
         print(colored("[0] Назад", "red"))
     else:
-        print(colored("[4]", "red"), colored("Installing b0mb3r", "red") + ok2)
+        print(colored("[4]", "red"), colored("Installing b0mb3r", "red") + ok3)
         print("")
         print("")
         print(colored("[0] Back", "red"))
@@ -227,7 +227,7 @@ def bomber():
         os.system("pip3 install ./b0mb3r-master")
         print("")
         a = open("bomb.txt", "w")
-        a.write("✔️")
+        a.write("yes")
         a.close()
         while True:
             bomber()
