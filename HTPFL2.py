@@ -1,4 +1,4 @@
-import platform, os, sys, requests, random
+import platform, os, sys, request, random
 from time import strftime, sleep
 from termcolor import colored
 
@@ -25,7 +25,7 @@ filee = "test.py"
 # Проверка сети
 def ICC():
     try:
-        requests.get("https://google.com", timeout=4)
+        request.get("https://google.com", timeout=4)
     except:
         print(colored("[!]", "red"), colored("Ваше устройство не подключено к интернету", "magenta"))
         print(colored("[✓]", "green"), colored("С уважением HTPFL", "megenta"))
