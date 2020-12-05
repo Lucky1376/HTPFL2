@@ -20,7 +20,7 @@ znak = a.read()
 znak = str(znak)
 a.close()
 
-filee = "test.py"
+filee = "HTPFL2.py"
 
 # Проверка сети
 def ICC():
