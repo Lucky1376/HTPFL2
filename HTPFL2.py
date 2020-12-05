@@ -157,7 +157,7 @@ def bomber():
                 number = input(colored("Номер ", "red") + "+")
                 timer = input(colored("Время в секундах ", "blue"))
                 print(colored("Остановить спам Ctrl + C", "green"))
-                time.sleep(4)
+                sleep(4)
                 try:
                     os.system("python impulse.py --target " + str(number) + " --method SMS --time " + str(
                         timer) + " --threads 200")
