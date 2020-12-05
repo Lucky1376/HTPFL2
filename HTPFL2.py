@@ -175,13 +175,12 @@ def bomber():
             while True:
                 bomber()
         else:
-            if lan == "ru":
-                print(colored("Start...", "green"))
-                os.system("pip insatall --upgrade pip")
-                for mod in modules:
-                    os.system("pip install " + mod)
-                while True:
-                    bomber()
+            print(colored("Start...", "green"))
+            os.system("pip insatall --upgrade pip")
+            for mod in modules:
+                os.system("pip install " + mod)
+            while True:
+                bomber()
     elif varr == "3":
         a = open("bomb.txt", "r")
         hmm = a.read()
