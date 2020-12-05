@@ -111,7 +111,7 @@ def bomber():
     ok2 = a.read()
     ok2 = str(ok2)
     if ok2 == "yes":
-        ok3 == colored("✔️", "green")
+        ok3 = colored("✔️", "green")
     else:
         ok3 = colored("❌", "red")
     if lan == "ru":
