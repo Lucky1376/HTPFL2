@@ -70,6 +70,8 @@ def Banner():
         print(colored("[0] Выход", "red"))
         print("")
     else:
+        print(colored("[1]", "red"), colored("Sms Bomber", "magenta"))
+        print("")
         print("")
         print(colored("[99]", "red"), colored("About Programm", "cyan"))
         print("")
