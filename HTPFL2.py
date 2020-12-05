@@ -104,7 +104,7 @@ def bomber():
     if lan == "ru":
         print(colored("[2]", "red"),colored("Установка модулей для Impulse", "magenta")+ok)
     else:
-        print(colored("[2]", "red"),colored("Installing modules for Imoulse", "magenta")+ok)
+        print(colored("[2]", "red"),colored("Installing modules for Impulse", "magenta")+ok)
     print("")
     print(colored("[3]", "red"), colored("b0mb3r", "red"))
     a = open("bomb.txt", "r")
