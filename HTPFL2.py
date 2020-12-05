@@ -176,7 +176,7 @@ def bomber():
                 bomber()
         else:
             print(colored("Start...", "green"))
-            os.system("pip insatall --upgrade pip")
+            os.system("pip install --upgrade pip")
             for mod in modules:
                 os.system("pip install " + mod)
             while True:
